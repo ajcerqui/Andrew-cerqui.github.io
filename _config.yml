@@ -4,8 +4,8 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 title: "Andrew Cerqui - Data Scientist"
 subtitle: "Turning data into actionable insights"
 description: "Data Science Portfolio showcasing analytical projects and skills"
-url: "https://yourusername.github.io"  # Replace 'yourusername' with your actual GitHub username
-repository: "yourusername/yourusername.github.io"  # Replace with your actual username
+url: "https://ajcerqui.github.io"  
+repository: "ajcerqui/ajcerqui.github.io"  
 
 # Author info
 author:
