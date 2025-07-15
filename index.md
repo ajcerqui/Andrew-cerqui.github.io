@@ -5,6 +5,8 @@ author_profile: true
 
 ## My Data Science Portfolio
 
+## Who Am I
+
 I'm Andrew Cerqui, a Data Science graduate student and current IT Operations/Data Analyst passionate about transforming complex data into actionable business insights. I combine analytical skills with practical experience to solve real-world problems.
 
 ## What I Do
