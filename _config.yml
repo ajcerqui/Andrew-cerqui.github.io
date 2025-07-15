@@ -10,7 +10,6 @@ repository: "ajcerqui/ajcerqui.github.io"
 # Author info
 author:
   name: "Andrew Cerqui"
-  avatar: "/assets/images/bio-photo.jpg" # Add your photo here later
   bio: "Data Science graduate student with experience in statistical analysis, business intelligence, and data visualization"
   location: "Salem, OR"
   email: "andrewjcerqui@gmail.com"
