@@ -1,19 +1,16 @@
 ---
 layout: home
-title: Home
+author_profile: true
 ---
 
-# Welcome to My Portfolio
+# Welcome to My Data Science Portfolio
 
-I'm a data science student passionate about [your interests].
+## Featured Projects
 
-## About Me
-[Your background and interests]
+{% assign featured_projects = site.projects | limit: 3 %}
+{% for project in featured_projects %}
+  <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+  <p>{{ project.excerpt }}</p>
+{% endfor %}
 
-## Projects
-- [Project 1 Name](link-to-project)
-- [Project 2 Name](link-to-project)
-
-## Contact
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn](your-linkedin-url)
+[View All Projects](/projects/){: .btn .btn--primary}
