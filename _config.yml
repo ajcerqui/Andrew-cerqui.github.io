@@ -20,10 +20,10 @@ author:
       url: "https://www.linkedin.com/in/andrew-cerqui-3a4b5c"
 
 # Navigation
-navigation:
+main_menu:
   - title: "About"
     url: /about/
-  - title: "Projects"
+  - title: "Projects"  
     url: /projects/
   - title: "Resume"
     url: /resume/
