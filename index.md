@@ -4,11 +4,11 @@ author_profile: true
 ---
 
 
-I'm Andrew Cerqui, a Data Science graduate student and current Data Analyst passionate about transforming complex data into actionable business insights. I combine analytical rigor with practical experience to solve real-world problems.
+I'm Andrew Cerqui, a Data Science graduate student and current IT Operations/Data Analyst passionate about transforming complex data into actionable business insights. I combine analytical skills with practical experience to solve real-world problems.
 
 ## What I Do
 
-Currently serving as a Data Analyst at Bridgeway Community Health, I design executive dashboards, support strategic decision-making, and provide rapid-response analysis across organizational levels. My work directly contributes to grant writing success and process improvements.
+Currently serving as a IT Operations/Data Analyst at Bridgeway Community Health, I design executive dashboards, support strategic decision-making, and provide rapid-response analysis across organizational levels. My work directly contributes to funding success and operational improvements.
 
 ## Featured Projects
 
