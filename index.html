@@ -93,6 +93,19 @@
             box-shadow: 0 5px 20px rgba(0,0,0,0.1);
             transform: translateY(-2px);
         }
+        .project.in-progress {
+            border-left: 4px solid #ffc107;
+            background: #fff9e6;
+        }
+        .progress-badge {
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: 600;
+            margin-left: 10px;
+        }
         .skills { 
             display: flex;
             flex-wrap: wrap;
@@ -211,14 +224,13 @@
         
         <div class="section">
             <h2>Resume</h2>
-            <a href="resume.pdf" class="btn">📄 Download Resume PDF</a>
             
             <div class="resume-section">
                 <h3>Education</h3>
                 <ul>
-                    <li><strong>Master of Science in Data Science</strong> (Expected August 2025) | Willamette University, Salem, Oregon | GPA: 4.0</li>
-                    <li><strong>Bachelor of Science in Data Science</strong> (Expected May 2025) | Willamette University, Salem, Oregon | GPA: 3.74</li>
-                    <li><strong>Bachelor of Arts in Psychology</strong> (Expected May 2025) | Willamette University, Salem, Oregon | GPA: 3.74</li>
+                    <li><strong>Master of Science in Data Science</strong> (Expected August 2025) | Willamette University, Salem, Oregon</li>
+                    <li><strong>Bachelor of Science in Data Science</strong> (Expected May 2025) | Willamette University, Salem, Oregon</li>
+                    <li><strong>Bachelor of Arts in Psychology</strong> (Expected May 2025) | Willamette University, Salem, Oregon</li>
                 </ul>
             </div>
             
@@ -256,28 +268,27 @@
         <div class="section">
             <h2>Featured Projects</h2>
             
-            <div class="project">
-                <h3>Healthcare Executive Dashboard Development</h3>
-                <p>Designed and developed comprehensive executive dashboards for Bridgeway Community Health that provide real-time visibility into productivity metrics, financial performance, and operational efficiency. These dashboards directly support strategic decision-making at the executive level.</p>
-                <p><strong>Tools Used:</strong> Tableau, SQL, Statistical Analysis, Data Visualization</p>
-                <p><strong>Key Results:</strong> Enabled data-driven decision making for executive leadership, improved visibility into organizational performance metrics, supported successful grant writing initiatives</p>
-                <p><strong>Skills Demonstrated:</strong> Business Intelligence, Executive Reporting, Data Visualization, Stakeholder Communication, Strategic Analysis</p>
+            <div class="project in-progress">
+                <h3>MLB Predictions & Sports Betting Model <span class="progress-badge">In Progress</span></h3>
+                <p>Developing a comprehensive machine learning model that combines MLB game predictions with market inefficiency analysis to create a profitable sports betting strategy. This capstone project integrates advanced statistical modeling with financial market principles to identify and capitalize on betting opportunities.</p>
+                <p><strong>Status:</strong> Currently in development - more updates and detailed results coming soon as the project progresses.</p>
+                <p><strong>Skills Being Demonstrated:</strong> Machine Learning, Statistical Modeling, Market Analysis, Python, Data Science Research</p>
             </div>
             
             <div class="project">
-                <h3>Institutional Research & Accreditation Framework</h3>
-                <p>Developed comprehensive data collection framework for Willamette University's accreditation cycle. Conducted stakeholder interviews with senior leadership and evaluated institutional data infrastructure to enhance organizational analytical capabilities.</p>
-                <p><strong>Tools Used:</strong> R, Data Collection Design, Process Analysis, Stakeholder Interviewing</p>
-                <p><strong>Key Results:</strong> Created strategic framework for accreditation data collection, identified infrastructure gaps and provided enhancement recommendations, improved institutional data quality</p>
-                <p><strong>Skills Demonstrated:</strong> Research Design, Stakeholder Communication, Process Improvement, Data Architecture, Requirements Analysis</p>
+                <h3>Executive Productivity Analytics Dashboard</h3>
+                <p>Designed and developed a comprehensive productivity reporting system for Bridgeway Community Health that drives organizational change and provides leadership with critical insights into staff performance. This sophisticated system pulls data from multiple sources and uses advanced logic to clean, weight, and calculate individualized productivity scores for staff members.</p>
+                <p><strong>Tools Used:</strong> SQL, Tableau, Advanced Analytics, Data Integration, Statistical Weighting</p>
+                <p><strong>Key Results:</strong> Created executive-level reporting tool that enables data-driven organizational change decisions, provides detailed staff performance insights, and supports strategic workforce management initiatives</p>
+                <p><strong>Skills Demonstrated:</strong> Advanced Data Integration, Statistical Analysis, Executive Reporting, Business Intelligence, Organizational Analytics</p>
             </div>
             
             <div class="project">
-                <h3>Grant Writing Data Support</h3>
-                <p>Provided comprehensive data analysis and visualization support for grant writing initiatives at Bridgeway Community Health. Created compelling data stories that contributed to successful funding acquisition through clear presentation of organizational impact and needs.</p>
-                <p><strong>Tools Used:</strong> Statistical Analysis, Data Visualization, Report Writing</p>
-                <p><strong>Key Results:</strong> Contributed to successful funding acquisition, improved grant application quality through data-driven narratives</p>
-                <p><strong>Skills Demonstrated:</strong> Statistical Analysis, Data Storytelling, Grant Writing Support, Impact Measurement</p>
+                <h3>BHRN Grant Data Analysis & Geospatial Mapping</h3>
+                <p>Conducted comprehensive data analysis and reporting for the Behavioral Health Regional Network (BHRN) grant cycle, creating detailed reports for yearly data requirements and developing geospatial mapping solutions to showcase demand for expansion and new clinic locations. Analysis included key performance indicators such as attendance rates, patients per capita, and regional demand metrics.</p>
+                <p><strong>Tools Used:</strong> Geospatial Mapping, Statistical Analysis, Data Visualization, Grant Reporting, KPI Development</p>
+                <p><strong>Key Results:</strong> Instrumental in securing over $4 million in BHRN grant funding through compelling data narratives and visualizations that demonstrated expansion needs and community impact</p>
+                <p><strong>Skills Demonstrated:</strong> Geospatial Analysis, Grant Writing Support, Data Storytelling, Impact Measurement, Strategic Analysis</p>
             </div>
         </div>
         
@@ -303,11 +314,6 @@
                     Salem, OR / Seattle, WA
                 </div>
             </div>
-            
-            <p style="margin-top: 30px; text-align: center;">
-                <a href="mailto:andrewjcerqui@gmail.com" class="btn">✉️ Send Email</a>
-                <a href="https://www.linkedin.com/in/andrew-cerqui-3a4b5c" class="btn btn-secondary" target="_blank">🔗 Connect on LinkedIn</a>
-            </p>
         </div>
     </div>
 </body>
