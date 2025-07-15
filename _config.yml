@@ -1,26 +1,23 @@
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # Site Settings
-title: "Your Name - Data Scientist"
-subtitle: "Passionate about turning data into insights"
-description: "Data Science Portfolio showcasing projects and skills"
-url: "https://yourusername.github.io"
-repository: "yourusername/yourusername.github.io"
+title: "Andrew Cerqui - Data Scientist"
+subtitle: "Turning data into actionable insights"
+description: "Data Science Portfolio showcasing analytical projects and skills"
+url: "https://yourusername.github.io"  # Replace 'yourusername' with your actual GitHub username
+repository: "yourusername/yourusername.github.io"  # Replace with your actual username
 
 # Author info
 author:
-  name: "Your Name"
-  avatar: "/assets/images/bio-photo.jpg" # Add your photo here
-  bio: "Data Science student with experience in Python, R, and machine learning"
-  location: "Your City, State"
-  email: "your.email@example.com"
+  name: "Andrew Cerqui"
+  avatar: "/assets/images/bio-photo.jpg" # Add your photo here later
+  bio: "Data Science graduate student with experience in statistical analysis, business intelligence, and data visualization"
+  location: "Salem, OR"
+  email: "andrewjcerqui@gmail.com"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/yourprofile"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/yourusername"
+      url: "https://www.linkedin.com/in/andrew-cerqui-3a4b5c"
 
 # Navigation
 navigation:
