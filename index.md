@@ -3,7 +3,6 @@ layout: home
 author_profile: true
 ---
 
-# Welcome to My Data Science Portfolio
 
 I'm Andrew Cerqui, a Data Science graduate student and current Data Analyst passionate about transforming complex data into actionable business insights. I combine analytical rigor with practical experience to solve real-world problems.
 
